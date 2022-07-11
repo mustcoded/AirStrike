@@ -110,7 +110,7 @@ class GameManager(object):
                 self.save_level()
 
             elif (self.rect_manual.collidepoint(x, y) and self.state == self.LOAD):
-                webbrowser.open_new('http://gamingdirectional.com/blog/2018/12/25/air-strike//')
+                webbrowser.open_new('https://islandtropicaman.com/wp/2022/07/11/space-shooter-pygame-project-republished/')
             elif (self.rect_back.collidepoint(x, y) and (self.state == self.ABOUT or self.state == self.MANUAL or self.state == self.SCORE)):
                 self.state = self.LOAD
             elif (self.rect_sound.collidepoint(x, y) and self.state == self.LOAD):
