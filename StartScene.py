@@ -76,7 +76,7 @@ class StartScene(object):
         self.game_logo_surface = self.game_logo_sprite.getImage() # get game logo image
         self.draw_pos = mt.Vector2(0, 0)
         self.draw_button_pos = mt.Vector2(177, 274)
-        self.draw_game_logo_pos = mt.Vector2(243, 60)
+        self.draw_game_logo_pos = mt.Vector2(170, 100)
         self.draw_play_button_pos = mt.Vector2(229, 200)
         self.draw_about_button_pos = mt.Vector2(229, 263)
         self.draw_home_button_pos = mt.Vector2(229, 263)
