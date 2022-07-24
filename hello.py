@@ -2,6 +2,8 @@ import pygame
 from pygame.locals import *
 from GameManager import GameManager
 
+# run this file to play the game
+
 pygame.init()
 
 size = width, height = 660, 660
